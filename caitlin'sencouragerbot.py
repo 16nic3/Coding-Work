@@ -35,6 +35,10 @@ while True:
       feelings_list.append("laughy")
       encouragement_list.append("Whoop!!!!! Be like meeeee Laugh a lotttt!!!! Don't listen to friends that tell you to stop laughing!!!!!!! It has been scientifically proven that laughing is good for your health!!! [According to The Caitlin Scientific lab of research]")
       counter += 1
+    if each_word == "stressed":
+      feelings_list.append("stressed")
+      encouragement_list.append("aww please remember to take a break and relax because im sure you'll do well!")
+      counter += 1
 
   if counter == 0:
     
